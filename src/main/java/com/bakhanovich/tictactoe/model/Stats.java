@@ -1,12 +1,12 @@
 package com.bakhanovich.tictactoe.model;
 
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 
 /**
  * A {@link Stats} encapsulates the pair of Integer, which corresponds amount of winning games by both players.
  */
-@Data
+@Getter
 @Builder
 public class Stats {
     private int firstPlayerWins;

@@ -1,13 +1,12 @@
 package com.bakhanovich.tictactoe.model;
 
 import lombok.Builder;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.Getter;
 
 /**
  * A {@link Point} encapsulates the pair of Integer.
  */
-@Data
+@Getter
 @Builder
 public class Point implements Comparable<Point> {
     private int positionI;
