@@ -2,7 +2,7 @@ Get started
 
 1. clone the project
 2. run "mvn clean install"
-3. run from console "java -jar tictactoe-0.0.1-SNAPSHOT.jar"
+3. run from console "java -jar tictactoe-0.0.1-SNAPSHOT.jar". Make sure you have java 17 on your machine.
 
 NOTE: to get the best user experience DO NOT start from IDE console. ClearConsole does not work from IDE terminal.
 NOTE: This typically occurs because Docker containers do not have a standard input (stdin) in the same way a normal terminal does, especially when running in detached mode (-d).
